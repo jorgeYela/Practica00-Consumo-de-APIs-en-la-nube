@@ -1,0 +1,127 @@
+body{
+    margin-bottom: 10px;
+}
+.containerCC{
+    width: 100%;
+    max-width: 700px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.lbl-menu{
+    background: rgb(237, 125, 49);
+}
+.lbl-menu label{
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.lbl-menu label:hover{
+    background: rgb(237, 125, 49);
+}
+.content{
+    position: relative;
+}
+.content div{
+    position: absolute;
+    line-height: 1.8;
+    transition: all 600ms ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.90);
+    padding: 30px;
+    background: #fff;
+    padding-bottom: 40px;
+}
+#radio1,#radio2,#radio3,#radio4{
+    display: none;
+}
+#radio1:checked ~ .tab1,
+#radio2:checked ~ .tab2,
+#radio3:checked ~ .tab3,
+#radio4:checked ~ .tab4
+{
+    border: 1px solid black;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    width: 1100px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: -200px;
+    overflow-y: scroll;
+    /*margin-bottom: 70px;*/
+}
+.content div:after{
+    position: absolute;
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    bottom: 100%;
+    left: 28px;
+}
+.content .tab2:after{
+    left: 122px;
+}
+.content .tab3:after{
+    left: 210px;
+}
+.content .tab4:after{
+    left: 303px;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container{
+	width: 90%;
+	}
+}
+#piePagina{
+    margin-top: 50px;
+    background-color: rgb(237, 125, 49);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pie{
+    text-align: center;
+    color: white;
+}
+.pagination{
+    margin: 20px 0;
+}
+.pagination ul{
+    list-style: none;
+    text-align: center;
+}
+.pagination ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.pagination ul li a{
+    margin-top: 600px;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    /*background: #024959;*/
+    background: black;
+    text-decoration: none;
+}
+#galer1{
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+#galer2{
+    margin-top: 50px;
+    border: 1px solid black;
+    margin-left: 80px;
+}
+#galer3{
+    margin-top: 50px;
+    border: 1px solid black;
+    margin-left: 70px;
+}
+#galer1:hover {filter: blur(5px);}
+#galer2:hover {filter: blur(5px);}
+#galer3:hover {filter: blur(5px);}

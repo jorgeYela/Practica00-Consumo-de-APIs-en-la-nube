@@ -1,0 +1,130 @@
+@font-face{
+    font-family: 'MiFuente-Kronta';
+    src: url(/fonts/KronaOne-Regular.ttf);
+}
+@font-face{
+    font-family: 'MiFuente-Domine';
+    src: url(/fonts/Domine/Domine-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: 'MiFuente-Alfa';
+    src: url(/fonts/Alfa/AlfaSlabOne-Regular.ttf);
+}
+h1{
+    font-family: 'MiFuente-Domine';
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+#contenedorCabecera{
+    position: relative;
+}
+#search{
+    position: absolute;
+    padding: 10px;
+    width: 30%;
+    margin-left: 510px;
+    margin-top: -465px;
+}
+#look{
+    position: absolute;
+    padding: 11px;
+    margin-left: 962px;
+    margin-top: -465px;
+    background-color: black;
+    border: 1px solid white;
+}
+#textBoton{
+    color: white;
+    margin: 0px;
+}
+#img{
+    position: absolute;
+    padding: 20px;
+    margin-left: 25%;
+    margin-top: -200px;
+    background-color: white;
+    /*background: linear-gradient(180deg, rgb(230, 157, 29), white);*/
+    /*background: radial-gradient(rgb(230, 157, 29), white, white);*/
+    /*border: 5px solid black;*/
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+#wraped{
+    background-color: rgb(237, 125, 49);
+    margin-left: 0.05%;
+    margin-top: -300px;
+}
+#label, #data{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+#artistIDH, #artistID, #artistS, #artistLab, #bornY, #disban, #artistSTRIPPED, #artistLABEL, #BornYear, #Disbanded{
+    background-color: rgb(251, 228, 213);
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#artistNAMEH, #artistNAME, #artistAlt, #artistALTERNATE, #formedY, #FormedYear, #diedY, #DiedYear{
+    background-color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#music{
+    margin-left: 510px;
+    margin-top: 10px;
+}
+#linkY{
+    position: absolute;
+    margin-left: 510px;
+    margin-top: -300px;
+}
+#articulos{
+    position: absolute;
+    border: 1px solid rgb(237, 125, 49);
+    margin-left: 1048px;
+    margin-top: -601px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#piePagina{
+    margin-top: 50px;
+    background-color: rgb(237, 125, 49);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pie{
+    text-align: center;
+    color: white;
+}
+.pagination{
+    margin: 20px 0;
+}
+.pagination ul{
+    list-style: none;
+    text-align: center;
+}
+.pagination ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.pagination ul li a{
+    margin-top: 100px;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    /*background: #024959;*/
+    background: black;
+    text-decoration: none;
+}

@@ -1,0 +1,55 @@
+#img3{
+    border: 1px solid rgb(237, 125, 49);
+    margin-left: 750px;
+    margin-top: -600px;
+    margin-bottom: 18.5px;
+}
+#disc{
+    background-color: rgb(237, 125, 49);
+    margin-left: 25%;
+    margin-top: 10px;
+}
+#yearD{
+    background-color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#albumD{
+    background-color: rgb(251, 228, 213);
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#piePagina{
+    margin-top: 50px;
+    background-color: rgb(237, 125, 49);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pie{
+    text-align: center;
+    color: white;
+}
+.pagination{
+    margin: 20px 0;
+}
+.pagination ul{
+    list-style: none;
+    text-align: center;
+}
+.pagination ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.pagination ul li a{
+    margin-top: 100px;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    /*background: #024959;*/
+    background: black;
+    text-decoration: none;
+}
