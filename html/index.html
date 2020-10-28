@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Pagina principal.
+        Autor: Jorge Yela Velez.
+        Date: 23/10/2020
+
+        Archivo: index.html
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School of Roock</title>
+</head>
+<body>
+    <header>
+        <div id="contenedorCabecera">
+            <h1>Find the information of your favorite artists</h1>
+            <div id="logoPrincipalPagina">
+              <img src="/imagenes/biblioteca.jpg" width="1505" height="700">
+            </div>
+            <div id="barraBusqueda">
+              <input type="search" id="search" placeholder="Name of your favorite artist or band..." autocomplete="off">
+            </div>
+            <div id="botonBusqueda">
+              <button id="look" class="look"><p id="textBoton">GO!</p></button>
+            </div>
+          </div>
+    </header>    
+    <div id="noticias"> </div>
+    <section id="IMGportada"><img id="img" src="/imagenes/cargando.gif" width="700" height="150"></section>
+    <section id="musicS"><img id="music" src="/imagenes/cargando.gif" width="500" height="300"></section>
+    <section id="results">
+        <table id="wraped">
+            <thead>
+                <tr>
+                    <th id="label">LABEL</th>
+                    <th id="data">DATA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id="artistIDH">Artist ID</th>
+                    <th id="artistID"></th>
+                </tr>
+                <tr>
+                    <th id="artistNAMEH">Artist Name</th>
+                    <th id="artistNAME"></th>
+                </tr>
+                <tr>
+                    <th id="artistS">Artist Stripped</th>
+                    <th id="artistSTRIPPED"></th>
+                </tr>
+                <tr>
+                    <th id="artistAlt">Artist Alternate</th>
+                    <th id="artistALTERNATE"></th>
+                </tr>
+                <tr>
+                    <th id="artistLab">Artist Label</th>
+                    <th id="artistLABEL"></th>
+                </tr>
+                <tr>
+                    <th id="formedY">Formed Year</th>
+                    <th id="FormedYear"></th>
+                </tr>
+                <tr>
+                    <th id="bornY">Born Year</th>
+                    <th id="BornYear"></th>
+                </tr>
+                <tr>
+                    <th id="diedY">Died Year</th>
+                    <th id="DiedYear"></th>
+                </tr>
+                <tr>
+                    <th id="disban">Disbanded</th>
+                    <th id="Disbanded"></th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <a id="linkY">The best of your favorite band here !!</a>
+    <section id="articulos">
+        <article id="Primera">
+        <p id="ENUnoticia1">Music and dance help older adults overcome movement disorders.</p>
+        <img id="noticia1" src="/imagenes/noticia1.jpg" width="400" height="250">
+        <a href="https://www.aarp.org/espanol/salud/salud-cerebral/info-2020/beneficios-de-la-musica-y-baile-mal-de-parkinson.html" target="_blank">
+            <p>To learn more about this news click here!</p>
+        </a>
+        </article>
+        <article id="Segunda">
+        <p id="ENUnoticia2">Life is a song.</p>
+        <img id="noticia1" src="/imagenes/noticia2.jpg" width="400" height="250">
+        <a href="https://www.aarp.org/espanol/salud/salud-cerebral/info-2020/musica-para-recordar-demencia-ernesto-lechner.html" target="_blank">
+            <p>To learn more about this news click here!</p>
+        </a>
+        </article>
+    </section>
+    <section class="pagination">
+        <ul>
+        <li><a href="/html/index.html">1</a></li>
+        <li><a href="/html/tabla2.html">2</a></li>
+        <li><a href="/html/data3.html">3</a></li>
+        <li><a href="/html/data4.html">4</a></li>
+        <li><a href="/html/data5.html">5</a></li>
+        </ul>
+    </section>
+    <footer id="piePagina">
+        <p class="pie">Jorge Yela Velez</p>
+        <p class="pie">Telf: <a href="tel:+59395205364">0985205364</a></p>
+        <p class="pie">Email: <a href="mailto:yelajorge6@gmail.com">yelajorge6@gmail.com</a></p>
+        <p class="pie">Universidad Politecnica Salesiana © Derechos Reservados</p>
+    </footer>
+</body>
+</html>
