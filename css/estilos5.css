@@ -122,6 +122,9 @@ body{
     border: 1px solid black;
     margin-left: 70px;
 }
+#articleBioES,#articleBioPT,#articleBioRU,#articleBioJP{
+    text-align: justify;
+}
 #galer1:hover {filter: blur(5px);}
 #galer2:hover {filter: blur(5px);}
 #galer3:hover {filter: blur(5px);}
